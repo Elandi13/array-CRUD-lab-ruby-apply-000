@@ -1,13 +1,15 @@
 def create_an_empty_array
-  
+  []
 end
 
 def create_an_array
-  
+  dogs = ["pitbull", "poodle", "Pug", "Jack Russel"]
 end
 
 def add_element_to_end_of_array(array, element)
-  
+  array = ["wow", "I", "am", "really", "learning"]
+    element = "arrays!"
+    element << array 
 end
 
 def add_element_to_start_of_array(array, element)
